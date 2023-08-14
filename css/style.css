@@ -535,6 +535,7 @@ h6 {
 
 .hero__oval__shape {
   position: absolute;
+  padding-bottom: 10.9rem;
   right: 420px;
 }
 
@@ -823,9 +824,7 @@ main {
 }
 
 .project__images {
-  display: flex;
   margin-bottom: 8rem;
-  align-items: center;
   gap: 2.3rem;
 }
 .project__images h3 {
