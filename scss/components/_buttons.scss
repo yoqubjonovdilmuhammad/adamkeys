@@ -1,0 +1,19 @@
+.btn__hover:hover {
+  color: $green-light-color;
+}
+.btn__under {
+  position: relative;
+  &::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: $green-light-color;
+    bottom: -5px;
+    transition: 0.4s;
+  }
+  &:hover::before {
+    width: 100%;
+  }
+}

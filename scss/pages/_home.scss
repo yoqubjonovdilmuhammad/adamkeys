@@ -1,3 +1,507 @@
 main {
-    flex-grow: 1;
+  flex-grow: 1;
+}
+.hero {
+}
+.hero__container {
+  display: flex;
+  padding-top: 12.7rem;
+  padding-bottom: 6.5rem;
+}
+.hero__desc {
+}
+
+.hero__list {
+  padding-bottom: 4.3rem;
+  width: 709px;
+}
+
+.hero__img {
+}
+.btn__line {
+  width: 120px;
+  height: 2px;
+  background-color: $green-light-color;
+}
+
+.services {
+  background-image: url("../../images/Group\ 26\ \(2\)\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-position: right -239px bottom;
+}
+.services__container {
+}
+.services__line {
+  background-color: $white-color;
+  width: 1110px;
+  height: 1px;
+}
+.services__list {
+  display: flex;
+}
+.services__title {
+  padding-top: 7.2rem;
+  width: 345px;
+  height: 98px;
+  gap: 3rem;
+  padding-bottom: 5.8rem;
+}
+.services__word {
+  padding-bottom: 1.4rem;
+}
+.services__p {
+  color: var(--grey, #d9d9d9);
+}
+
+.project {
+}
+.project__container {
+  padding-top: 14.2rem;
+  width: 1110px;
+}
+.container {
+}
+.project__content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+
+  h1 {
+    margin-right: auto;
+  }
+  a {
+    color: $white-color;
+  }
+}
+.project__list {
+}
+
+.project__btn {
+  padding-bottom: 10.5rem;
+}
+
+.btn__line {
+}
+.project__images {
+  display: flex;
+  margin-bottom: 8rem;
+  align-items: center;
+  gap: 2.3rem;
+
+  h3 {
+    margin-bottom: 0.7rem;
+  }
+}
+
+.project__img {
+  display: flex;
+}
+.projects__card {
+}
+.project__phoros {
+  display: flex;
+  gap: 1.3rem;
+  padding-bottom: 6.9rem;
+}
+
+.project__hover {
+}
+.project__desc {
+}
+.project__link {
+}
+.project__title {
+  padding-top: 2.4rem;
+  font-size: 2.4;
+  font-weight: 700;
+  line-height: 1.33;
+}
+.project__phorogrsaph {
+}
+.project__hovers {
+}
+.project__hoved {
+}
+.project__hovez {
+}
+.project__hovef {
+}
+.project__hoverf {
+}
+
+.project__hover {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/Bitmap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hover:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/Bitmap.png");
+}
+.project__hover:hover .project__desc {
+  display: flex;
+}
+
+.project__hovers {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/bitmap1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hovers:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bitmap1.png");
+}
+.project__hovers:hover .project__desc {
+  display: flex;
+}
+
+.project__hoved {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/bitmap2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hoved:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bitmap2.png");
+}
+.project__hoved:hover .project__desc {
+  display: flex;
+}
+.project__hovez {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/bitmap3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hovez:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bitmap3.png               ");
+}
+.project__hovez:hover .project__desc {
+  display: flex;
+}
+.project__hovef {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/bitmap4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hovef:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bitmap4.png");
+}
+.project__hovef:hover .project__desc {
+  display: flex;
+}
+
+.project__hoverf {
+  width: 540px;
+  height: 400px;
+  background-image: url("../../images/bitmap5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__desc {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 4.8rem;
+
+  a {
+    color: $white-color;
+    position: relative;
+  }
+  a:after {
+    display: inline-block;
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    background-color: $green-light-color;
+    bottom: -1rem;
+    left: 0;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $green-light-color;
+  }
+  a:hover::after {
+    width: 100%;
+  }
+}
+.project__hoverf:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bitmap5.png");
+}
+.project__hoverf:hover .project__desc {
+  display: flex;
+}
+
+@media only screen and (max-width: 1300px) {
+  .project__link {
+    visibility: visible;
+    opacity: 1;
+  }
+  .project__hover:hover {
+    .projects__btn {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+}
+@media only screen and (max-width: 1210px) {
+  li {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .hero {
+    background-image: url("../../images/Oval\ \(4\)\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: right -299px bottom;
+  }
+  .project__btn {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .-list {
+    position: absolute;
+    top: 323px;
+    text-align: center;
+    max-width: 345px;
+    width: 100%;
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 2.4rem;
+    }
+    p {
+      margin-bottom: 2.4rem;
+    }
+  }
+  .services__container {
+    flex-direction: column;
+  }
+
+  .services__title {
+    padding-top: 2.4rem;
+    font-size: 3.2rem;
+    letter-spacing: -1px;
+  }
+
+  .hero__img {
+    width: 174px;
+    height: 38.3rem;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .project__images {
+    text-align: center;
+  }
+  .hero {
+    background-image: url("../../images/Oval\ \(4\)\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: right -400px bottom;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .services__list {
+    text-align: center;
+  }
+  .project {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  .project__images {
+    display: block;
+  }
+  .project__title,
+  .project__phorogrsaph {
+    max-width: 570px;
+    width: 100%;
+  }
+  .btn-line {
+    padding-bottom: 8rem;
+  }
 }
